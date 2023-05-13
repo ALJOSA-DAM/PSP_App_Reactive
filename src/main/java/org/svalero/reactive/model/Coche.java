@@ -14,6 +14,7 @@ public class Coche {
     private String id;
     private String marca;
     private String matricula;
+    private String modelo;
     private boolean disponible;
     private List<Alquiler> alquileres;
 
@@ -30,6 +31,7 @@ public class Coche {
         return "Coche " + id + " ->\n" +
                 '\t' + "Marca: " + "\t\t\t\t" + marca + "\n" +
                 '\t' + "Matricula: " + "\t\t\t" + matricula + "\n" +
+                '\t' + "Modelo: " + "\t\t\t" + modelo + "\n" +
                 '\t' + "Disponible: " + "\t\t\t" + disponible;
     }
 }

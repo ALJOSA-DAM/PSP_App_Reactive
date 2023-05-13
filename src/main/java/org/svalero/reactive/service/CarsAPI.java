@@ -10,10 +10,10 @@ import java.util.List;
 
 public interface CarsAPI {
 
-    @GET("coches")
+    @GET("coches?all=true")
     Observable<List<Coche>> getCars();
 
-    @GET("usuario/dni/{dni}")
+    @GET("usuarios/dni/{dni}")
     Observable<Usuario> getUsers(@Path("dni") String dni);
 
 }
