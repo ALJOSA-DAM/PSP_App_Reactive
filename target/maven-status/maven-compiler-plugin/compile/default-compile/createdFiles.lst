@@ -1,5 +1,4 @@
 org\svalero\reactive\util\R.class
-org\svalero\reactive\controler\DniController.class
 org\svalero\reactive\service\CarsAPI.class
 org\svalero\reactive\model\Coche.class
 org\svalero\reactive\service\CarsApiService.class
@@ -8,6 +7,7 @@ org\svalero\reactive\App.class
 org\svalero\reactive\model\Usuario.class
 org\svalero\reactive\task\CarTask.class
 org\svalero\reactive\task\UserTask.class
+org\svalero\reactive\controler\UserController.class
 org\svalero\reactive\util\ZipFile.class
 org\svalero\reactive\model\Alquiler.class
 org\svalero\reactive\controler\CarController.class
